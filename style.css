@@ -255,3 +255,63 @@ footer p em {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(30, 58, 138, 0.3);
 }
+/* Smaller hero for subpages */
+.small-hero {
+  background-color: #f3f4f8;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.small-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.small-hero p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Application Form */
+.form-section {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.app-form label {
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.app-form input,
+.app-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  background-color: #f9fafc;
+}
+
+.app-form button {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.app-form button:hover {
+  background-color: #102963;
+  transform: translateY(-2px);
+}
