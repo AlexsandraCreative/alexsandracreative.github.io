@@ -233,3 +233,25 @@ footer p em {
     margin-bottom: 1.5rem;
   }
 }
+.cta-button {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cta-button a {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cta-button a:hover {
+  background-color: #0f2a70;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(30, 58, 138, 0.3);
+}
