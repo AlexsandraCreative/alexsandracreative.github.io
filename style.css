@@ -1,108 +1,139 @@
-body {
+/* RESET + BASE */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #f4f6fc;
-  color: #1e40af;
+  background-color: #f3f4f8;
+  color: #1e3a8a;
+  line-height: 1.6;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+a {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+/* NAVIGATION */
 .navbar ul {
   display: flex;
   justify-content: center;
   gap: 2rem;
   list-style: none;
-  padding: 1rem;
-  margin: 0;
-  background-color: #eef0f8;
-  border-bottom: 1px solid #dcdcdc;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #1e40af;
+  padding: 1.2rem 0;
+  background-color: #eef1f8;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
   font-weight: 500;
 }
 
+/* HERO SECTION */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
+  background-color: #f4f6fc;
 }
-
 .hero h1 {
   font-size: 2.5rem;
   font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 2rem;
 }
-
 .hero-images {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
   flex-wrap: wrap;
 }
-
 .hero-images img {
-  max-width: 300px;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
   border-radius: 12px;
 }
 
-.mission,
-.impact {
-  padding: 3rem 2rem;
+/* SECTION TITLES */
+h2 {
   text-align: center;
-}
-
-.mission h2,
-.impact h2 {
   font-size: 2rem;
-  font-weight: 700;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #1e3a8a;
 }
 
+/* MISSION SECTION */
 .mission-content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding: 0 2rem 4rem;
   flex-wrap: wrap;
-  margin-top: 2rem;
 }
-
 .mission-content img {
-  max-width: 300px;
-  border-radius: 12px;
+  width: 300px;
+}
+.mission-content p {
+  max-width: 400px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
 }
 
+/* IMPACT SECTION */
+.impact {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+.impact p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+}
 .impact-images {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
   flex-wrap: wrap;
 }
-
 .impact-images img {
-  max-width: 300px;
-  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
 }
 
+/* FOOTER */
 footer {
-  background-color: #eef0f8;
-  color: #1e40af;
-  padding: 2rem;
-  margin-top: 4rem;
-  border-top: 1px solid #dcdcdc;
-  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #eef1f8;
+  color: #1e3a8a;
+  border-top: 1px solid #ccc;
 }
-
+footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
 .footer-columns {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  gap: 2rem;
   font-size: 0.9rem;
 }
-
 .footer-note {
-  margin-top: 2rem;
+  margin-top: 3rem;
+  text-align: center;
   font-size: 0.8rem;
-  color: #555;
+  color: #666;
 }
