@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f4f6fc;
+  color: #1e40af;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  background-color: #eef0f8;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1e40af;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-images img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.mission,
+.impact {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.mission h2,
+.impact h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.mission-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.mission-content img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.impact-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.impact-images img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+footer {
+  background-color: #eef0f8;
+  color: #1e40af;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-note {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #555;
+}
